@@ -1,0 +1,110 @@
+{
+  "notifications": [
+    {
+      "user": "Mark Webber",
+      "read": false,
+      "action": "post-reaction",
+      "info": {
+        "message": "reacted to your recent post",
+        "name": "My first tournament today!",
+        "src": "#",
+        "relativeTime": "1m ago"
+      }
+    },
+    {
+      "user": "Angela Gray",
+      "read": false,
+      "action": "follow",
+      "info": {
+        "message": "followed you",
+        "relativeTime": "5m ago"
+      }
+    },
+    {
+      "user": "Jacob Thompson",
+      "read": false,
+      "action": "group-action",
+      "info": {
+        "message": "has joined your group",
+        "name": "Chess Club",
+        "src": "#",
+        "relativeTime": "1 day ago"
+      }
+    },
+    {
+      "user": "Rizky Hasanuddin",
+      "read": true,
+      "action": "private-message",
+      "info": {
+        "message": "sent you a private message",
+        "content": "Hello, thanks for setting up the Chess Club, I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+        "relativeTime": "5 days ago"
+      }
+    },
+    {
+      "user": "Kimberly Smith",
+      "read": true,
+      "action": "picture-comment",
+      "info": {
+        "message": "commented on your picture",
+        "src": "image-chess.webp",
+        "relativeTime": "1 week ago"
+      }
+    },
+    {
+      "user": "Nathan Peterson",
+      "read": true,
+      "action": "post-reaction",
+      "info": {
+        "message": "reacted to your recent post",
+        "name": "5 end-game strategies to increase your win rate",
+        "src": "#",
+        "relativeTime": "2 weeks ago"
+      }
+    },
+    {
+      "user": "Anna Kim",
+      "read": true,
+      "action": "group-action",
+      "info": {
+        "message": "left the group",
+        "name": "Chess Club",
+        "src": "#",
+        "relativeTime": "2 weeks ago"
+      }
+    },
+    {
+      "user": "Anna Kim",
+      "read": true,
+      "action": "group-action",
+      "info": {
+        "message": "left the group",
+        "name": "Chess Club",
+        "src": "#",
+        "relativeTime": "2 weeks ago"
+      }
+    },
+    {
+      "user": "Anna Kim",
+      "read": true,
+      "action": "group-action",
+      "info": {
+        "message": "left the group",
+        "name": "Chess Club",
+        "src": "#",
+        "relativeTime": "2 weeks ago"
+      }
+    },
+    {
+      "user": "Anna Kim",
+      "read": true,
+      "action": "group-action",
+      "info": {
+        "message": "left the group",
+        "name": "Chess Club",
+        "src": "#",
+        "relativeTime": "2 weeks ago"
+      }
+    }
+  ]
+}

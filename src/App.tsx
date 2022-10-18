@@ -1,9 +1,13 @@
-import type { Component } from 'solid-js';
+import type { Component } from "solid-js";
 
-import styles from './App.module.css';
+import Notifications from "./Components/Notifications";
 
 const App: Component = () => {
-  return <div class={styles.App}></div>;
+  return (
+    <div class="grid h-screen place-items-center bg-c-very-light-grayish-blue">
+      <Notifications />
+    </div>
+  );
 };
 
 export default App;

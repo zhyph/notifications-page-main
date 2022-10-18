@@ -1,0 +1,8 @@
+a:hover,
+button:hover {
+  color: var(--blue);
+}
+
+#picture {
+  cursor: pointer;
+}
