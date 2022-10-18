@@ -72,39 +72,6 @@
         "src": "#",
         "relativeTime": "2 weeks ago"
       }
-    },
-    {
-      "user": "Anna Kim",
-      "read": true,
-      "action": "group-action",
-      "info": {
-        "message": "left the group",
-        "name": "Chess Club",
-        "src": "#",
-        "relativeTime": "2 weeks ago"
-      }
-    },
-    {
-      "user": "Anna Kim",
-      "read": true,
-      "action": "group-action",
-      "info": {
-        "message": "left the group",
-        "name": "Chess Club",
-        "src": "#",
-        "relativeTime": "2 weeks ago"
-      }
-    },
-    {
-      "user": "Anna Kim",
-      "read": true,
-      "action": "group-action",
-      "info": {
-        "message": "left the group",
-        "name": "Chess Club",
-        "src": "#",
-        "relativeTime": "2 weeks ago"
-      }
     }
   ]
 }
