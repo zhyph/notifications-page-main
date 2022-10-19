@@ -20,6 +20,7 @@
       format("truetype"),
     url("/src/assets/fonts/static/PlusJakartaSans-ExtraBold.ttf")
       format("truetype");
+  font-display: swap;
 }
 
 * {
