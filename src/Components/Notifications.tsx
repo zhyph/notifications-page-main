@@ -61,7 +61,7 @@ const ACTION_CLASS_MAP = {
 const ELEMENT_BY_ACTION = {
   "post-reaction": (notification: NotificationOBJ, actionClass: string) => {
     return (
-      <span class="w-full">
+      <div class="w-full">
         <NotificationBase notification={notification}>
           <a
             href="#"
@@ -70,14 +70,14 @@ const ELEMENT_BY_ACTION = {
             {notification.info.name}
           </a>
         </NotificationBase>
-      </span>
+      </div>
     );
   },
   follow: (notification: NotificationOBJ) => {
     return (
-      <span class="w-full">
+      <div class="w-full">
         <NotificationBase notification={notification} />
-      </span>
+      </div>
     );
   },
   "group-action": (notification: NotificationOBJ, actionClass: string) =>
@@ -85,9 +85,9 @@ const ELEMENT_BY_ACTION = {
   "private-message": (notification: NotificationOBJ) => {
     return (
       <>
-        <span class="w-full">
+        <div class="w-full">
           <NotificationBase notification={notification} />
-        </span>
+        </div>
         <div class="mt-2 w-full rounded border border-c-light-grayish-blue-2 p-4 text-c-dark-grayish-blue hover:cursor-pointer hover:bg-c-light-grayish-blue-1">
           <p class="lg:text-md text-sm">{notification.info.content}</p>
         </div>
@@ -96,7 +96,7 @@ const ELEMENT_BY_ACTION = {
   },
   "picture-comment": (notification: NotificationOBJ) => {
     return (
-      <span class="w-full">
+      <div class="w-full">
         <div class="flex justify-between">
           <div>
             <NotificationBase notification={notification} />
@@ -108,7 +108,7 @@ const ELEMENT_BY_ACTION = {
             class="h-10 w-10"
           />
         </div>
-      </span>
+      </div>
     );
   },
 };
