@@ -30,6 +30,8 @@ const NotificationBase: Component<NotificationBaseProps> = ({
   );
 };
 
+type ACTIONTypes = keyof typeof ACTION_CLASS_MAP;
+
 type infoType = {
   message: string;
   name?: string;
@@ -50,8 +52,6 @@ interface DataType {
   notifications: NotificationOBJ[];
   unreadCount: number;
 }
-
-type ACTIONTypes = keyof typeof ACTION_CLASS_MAP;
 
 const ACTION_CLASS_MAP = {
   "post-reaction": "text-c-dark-grayish-blue",

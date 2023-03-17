@@ -8,11 +8,16 @@ const App: Component = () => {
       <Notifications />
       <div class="bottom-1 text-xs md:absolute">
         Challenge by{" "}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        <a
+          rel="noopener"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+        >
           Frontend Mentor.
         </a>
         &nbsp;Coded by{" "}
         <a
+          rel="noopener"
           href="https://www.linkedin.com/in/artur-almeida-61ab6a1b4/"
           target="_blank"
         >
